@@ -1,1 +1,1 @@
-web: gradle run
+web: java  -Dmicronaut.environments=heroku -Dserver.port=$PORT -jar build/libs/dictionary-0.1-all.jar
