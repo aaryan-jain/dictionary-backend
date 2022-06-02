@@ -2,7 +2,7 @@ micronaut:
   application:
     name: dictionary
   server:
-    port: 9000
+    port: ${PORT:8080}
     cors:
       enabled: true
       configuration:
